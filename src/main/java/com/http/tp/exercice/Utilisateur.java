@@ -21,6 +21,7 @@ public class Utilisateur {
 	@Email
 	private String email;
 	@Column(columnDefinition = "varchar(255) default 'ouvrier'")
+
 	private String grade;
 	public long getId() {
 		return id;
